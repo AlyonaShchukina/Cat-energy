@@ -1,0 +1,20 @@
+@media screen and (max-width: 1170px) {
+  .cat_background {
+    display: none;
+  }
+
+  a {
+    color: var(--basic-black);
+  }
+  .fb_section {
+    --imgw: clamp(500px, 90vw, 709px);
+    height: calc(350px + 0.9 * var(--imgw));
+
+  }
+  .fb_can {
+    top: 500px;
+    left: calc((100% - var(--imgw)) / 2);
+    width:  var(--imgw);
+    z-index: -1;
+  }
+}

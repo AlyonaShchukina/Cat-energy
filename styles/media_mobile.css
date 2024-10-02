@@ -1,0 +1,26 @@
+@media screen and (max-width: 700px) {
+    .cont{
+        margin: 20px 0;
+        width: auto;
+    }
+    .cat_background {
+      display: block;
+    }
+  
+    
+    .fb_section {
+      --imgw: clamp(200px, 90vw, 280px);
+      color: white;
+  
+    }
+    .fb_button {
+        margin-top: 290px;
+    }
+    .fb_can {
+      top: 500px;
+      left: calc((100% - var(--imgw)) / 2);
+      width:  var(--imgw);
+      z-index: -1;
+    }
+  }
+  

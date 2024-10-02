@@ -1,0 +1,38 @@
+* {
+    font-family: Oswald;
+}
+
+:root {
+    --basic-green: #68B738;
+    --basic-white: white;
+    --basic-black: black;
+    --fonts: 400;
+   
+}
+
+body {margin: 0;}
+
+.cont {
+    width: 85%;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    font-size: 20px;
+    color: var(--basic-white);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

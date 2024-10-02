@@ -1,0 +1,67 @@
+
+header {
+    padding-top: 52px;
+}
+
+.h-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav {
+   display: flex;
+   text-transform: uppercase;
+}
+
+li {
+    margin-left: 35px;
+}
+
+.cat_background {
+    position: absolute;
+    z-index: -1;
+    margin: 0;
+    inset: 0 50%;
+    background-image: url(/img/background-desktop.jpg);
+    background-repeat: no-repeat;
+    width: 50%;
+}
+.fb_section {
+    height: 579px;
+}
+.first_block {
+    margin-left: 80px;
+}
+
+.fb_title {
+    font-size: 60px;
+    font-weight: var(--fonts);
+    width: 415px;
+    line-height: 1;
+    margin-bottom: 46px;
+}
+
+.fb_text {
+    text-transform: uppercase;
+    margin-bottom: 53px;
+    font-size: 20px;
+    font-weight: var(--fonts);
+}
+
+.fb_button {
+    text-transform: uppercase;
+    font-weight: var(--fonts);
+    font-size: 20px;
+    background-color: var(--basic-green);
+    padding: 20px 29px;
+}
+
+.fb_can {
+    position: absolute;
+    inset: 138px 39%;
+}
+
+.fb_section {
+    padding-top: 45px;
+}
